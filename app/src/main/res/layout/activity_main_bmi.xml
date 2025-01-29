@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityBMI"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:gravity="center"
+    android:background="@drawable/three_color">
+
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="BMI CALCULATOR"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+    android:textColor="#ffffff"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="125sp"
+        android:src="@drawable/bmi_logo"
+        android:layout_gravity="center"
+        android:contentDescription="@string/ff"
+        tools:ignore="ContentDescription" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   "
+        android:padding="10sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight: "
+            android:textStyle="bold"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/weightEditText"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Enter Your Weight"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height: "
+            android:textStyle="bold"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/heightEditText"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Enter Your Height"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   "
+        android:padding="11sp"
+        >
+
+    </TextView>
+        <Button
+            android:id="@+id/calculateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:textColor="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result is: "
+        android:padding="15sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/bmiTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#28FFFFFF"
+        android:paddingTop="25sp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    </LinearLayout>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:paddingHorizontal="10sp"
+    android:paddingTop="50sp" >
+
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_gravity="center"
+        android:src="@drawable/profilepicture2"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:text="@string/dr_md_shibly_shahriar1"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:text="@string/mbbs_du_bcs_health"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:text="@string/ms_surgical_resident_thoracic_surgery"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000000"/>
+    <TextView
+        android:text="@string/pgt_orthopaedics_and_trauma"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#005E30"
+        android:paddingTop="20sp"
+        android:text="@string/for_contract"
+        android:textSize="30sp"
+        android:paddingBottom="10sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="30">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80sp"
+            android:layout_weight="10"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/phn"
+                android:layout_width="80sp"
+                android:layout_height="55sp"
+                android:layout_gravity="center_horizontal"
+                android:clickable="true"
+                android:contentDescription="@string/saadi"
+                android:focusable="true"
+                android:src="@drawable/phone"
+                tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck,ImageContrastCheck" />
+
+            <TextView
+                android:text="@string/phone"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80sp"
+            android:layout_weight="10"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables">
+            <ImageView
+                android:id="@+id/msg"
+                android:clickable="true"
+                android:layout_width="90sp"
+                android:layout_height="55sp"
+                android:src="@drawable/message"
+                android:contentDescription="@string/todoa"
+                android:layout_gravity="center_horizontal"
+                android:focusable="true" />
+            <TextView
+                android:text="@string/message"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80sp"
+            android:orientation="vertical"
+            android:layout_weight="10"
+            tools:ignore="UseCompoundDrawables">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="80sp"
+                android:layout_height="55sp"
+                android:src="@drawable/facebook"
+                android:contentDescription="@string/todos"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:text="@string/facebook"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="30"
+        android:padding="11sp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80sp"
+            android:layout_weight="10"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables">
+            <ImageView
+                android:id="@+id/youtube"
+                android:layout_width="80sp"
+                android:layout_height="55sp"
+                android:src="@drawable/youtube_logo"
+                android:contentDescription="@string/todos"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:text="YouTube"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80sp"
+        android:layout_weight="10"
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:id="@+id/BMIView"
+            android:layout_width="80sp"
+            android:layout_height="55sp"
+            android:src="@drawable/bmi_logo"
+            android:contentDescription="@string/todos"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:text="@string/bmi_calc"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80sp"
+            android:layout_weight="10"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/pregView"
+                android:layout_width="80sp"
+                android:layout_height="55sp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/dd"
+                android:src="@drawable/pregnancycal"
+                tools:ignore="ContentDescription,ImageContrastCheck" />
+        <TextView
+            android:text="@string/cc"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/DeveloperIdentity"
+        android:text="     "
+        android:textColor="#546E7A"
+        android:textSize="11sp"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+
+    <Button
+
+        android:id="@+id/appoinment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="#000000"
+        android:textStyle="bold"
+        android:text="Make an Appoinment"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/DeveloperIdentity"
+        android:text="     "
+        android:textColor="#546E7A"
+        android:textSize="11sp"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+
+    <Button
+
+        android:id="@+id/clickButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#000000"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="@string/see_more"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+</LinearLayout>
+

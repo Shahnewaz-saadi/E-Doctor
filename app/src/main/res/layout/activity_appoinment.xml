@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Appoinment"
+    android:padding="25dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/three_color"
+    >
+
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+                android:src="@drawable/profilepicture2"
+            android:paddingBottom="15sp">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:text="Appoinment With Dr Shibly Shahriar"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+            android:paddingBottom="50dp"
+                >
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                        android:text="Name:"
+                        android:textStyle="bold"
+                        android:textSize="20sp">
+
+                </TextView>
+                <EditText
+                    android:id="@+id/etPatientName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age:"
+                    android:textStyle="bold"
+                    android:textSize="20sp">
+
+                </TextView>
+                <EditText
+                    android:id="@+id/etAge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender:"
+                    android:textStyle="bold"
+                    android:textSize="20sp">
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/spinnerGender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Gender" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address:"
+                    android:textStyle="bold"
+                    android:textSize="20sp">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/etAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Problem:"
+                    android:textStyle="bold"
+                    android:textSize="20sp">
+                </TextView>
+                <EditText
+                    android:id="@+id/etProblem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+        </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15sp"
+                    android:text="    ">
+
+                </TextView>
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+
+</LinearLayout>

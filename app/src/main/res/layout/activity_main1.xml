@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="@string/activities"
+        android:textColor="#000000"
+        android:textStyle="bold">
+    </TextView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/padmasetu"
+                android:paddingTop="10dp"
+                android:text="@string/freeCamp"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="180sp"
+                android:layout_gravity="center"
+                android:src="@drawable/img5"
+                android:contentDescription="@string/todoe" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="30"
+                android:baselineAligned="false">
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100sp"
+                    android:layout_weight="10"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="100sp"
+                        android:contentDescription="@string/todog"
+                        android:src="@drawable/img6" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100sp"
+                    android:layout_weight="10"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="100sp"
+                        android:src="@drawable/img3"
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/j" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100sp"
+                    android:orientation="vertical"
+                    android:layout_weight="10">
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="100sp"
+                        android:src="@drawable/img4"
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/d" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/time1"
+                android:paddingTop="10sp"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:fontFamily="@font/padmasetu"/>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="150sp"
+                android:src="@drawable/img2"
+                android:contentDescription="@string/l">
+            </ImageView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/padmasetu"
+                android:paddingTop="10sp"
+                android:text="@string/sathi"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contract1"
+                android:paddingTop="10sp"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:fontFamily="@font/padmasetu">
+            </TextView>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/phn0"
+                android:paddingTop="10sp"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:fontFamily="@font/padmasetu">
+            </TextView>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/phn1"
+                android:paddingTop="10sp"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:fontFamily="@font/padmasetu">
+            </TextView>
+
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phn2"
+            android:paddingTop="10sp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:fontFamily="@font/padmasetu">
+        </TextView>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="300sp"
+                android:src="@drawable/img9"
+                android:contentDescription="@string/ds">
+            </ImageView>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200sp"
+                android:src="@drawable/img8"
+                android:contentDescription="@string/l">
+            </ImageView>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="300sp"
+                android:src="@drawable/img0"
+                android:contentDescription="@string/l">
+            </ImageView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sq0"
+                android:paddingTop="10sp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:fontFamily="@font/padmasetu">
+            </TextView>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sq1"
+                android:paddingTop="10sp"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:fontFamily="@font/padmasetu">
+            </TextView>
+
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sq2"
+            android:paddingTop="10sp"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:fontFamily="@font/padmasetu">
+        </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sq3"
+                android:paddingTop="10sp"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:fontFamily="@font/padmasetu">
+            </TextView>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sq4"
+                android:paddingTop="10sp"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:fontFamily="@font/padmasetu">
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sq5"
+                android:paddingTop="10sp"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:fontFamily="@font/padmasetu">
+            </TextView>
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bye"
+                android:paddingTop="20sp"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:fontFamily="@font/padmasetu">
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:text="@string/DeveloperIdentity"
+                android:textSize="11sp"
+                android:textStyle="bold">
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
